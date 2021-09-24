@@ -1,0 +1,60 @@
+.library {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  overflow: scroll;
+  cursor: pointer;
+  background-color: #cadefc;
+  transform: translate(-100%);
+  h2 {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+}
+.library-songs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  img {
+    width: 20%;
+    border-radius: 100%;
+  }
+}
+
+.library-song {
+  display: flex;
+  font-size: 12px;
+  padding: 2rem 0 2rem 1rem;
+  align-items: center;
+}
+.library-components {
+  padding: 0 1rem;
+}
+*::-webkit-scrollbar {
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: gray;
+}
+.selected {
+  background-color: #c3bef0;
+}
+.active {
+  transform: translate(0%);
+}
+@media screen and (max-width: 768px) {
+  .library {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1000px) and (min-width: 769px) {
+  .library {
+    width: 40%;
+  }
+}

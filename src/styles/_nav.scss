@@ -1,0 +1,16 @@
+nav {
+  min-height: 10vh;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  button {
+    padding: 6px 10px;
+  }
+}
+@media screen and (max-width: 768px) {
+  button {
+    z-index: 10;
+  }
+}

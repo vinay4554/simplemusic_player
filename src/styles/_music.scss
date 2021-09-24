@@ -1,0 +1,21 @@
+.Music {
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    max-width: 50%;
+    height: 250px;
+    border-radius: 100%;
+    padding: 20px 0;
+  }
+  h2 {
+    padding: 2rem 1rem 1rem 1rem;
+  }
+  h3 {
+    padding: 1rem 1rem 2rem 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+}
